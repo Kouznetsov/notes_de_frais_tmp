@@ -1,0 +1,21 @@
+<resources>
+    <string name="add_ndf">Ajouter</string>
+    <string name="see_and_edit">Voir et éditer</string>
+    <string name="share">Partager et/ou exporter</string>
+    <string name="app_name">Notes de frais</string>
+    <string name="edf_activity_title">Nouvelle note de frais</string>
+    <string name="practitian_name">Nom du practitien</string>
+    <string name="date_of_visit">Date de visite</string>
+    <string name="hour_of_visit">Heure de la visite</string>
+    <string name="amount_noon">Montant du midi</string>
+    <string name="amount_evening">Montant du soir</string>
+    <string name="night_price">Prix de la nuit</string>
+    <string name="amount_tax_free">Montant total hors forfait</string>
+    <string name="amount_of_justificatifs">Nombre de justificatifs</string>
+    <string name="total_amount">Montant total</string>
+    <string name="validate">Valider</string>
+    <string name="cancel">Annuler</string>
+    <string name="ndf_list">Liste des notes de frais</string>
+    <string name="save_and_update">Enregistrement et mise à jour</string>
+    <string name="please_fill_all_fields">Veuillez remplir tous les champs</string>
+</resources>
