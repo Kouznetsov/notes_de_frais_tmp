@@ -55,9 +55,8 @@
                 android:text="@string/date_of_visit"
                 android:textColor="@android:color/black" />
 
-            <EditText
+            <Button
                 android:id="@+id/date_visit"
-                android:inputType="date"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0"
@@ -80,10 +79,9 @@
                 android:text="@string/hour_of_visit"
                 android:textColor="@android:color/black" />
 
-            <EditText
+            <Button
                 android:id="@+id/hour_of_visit_edit"
                 android:layout_width="0dp"
-                android:inputType="time"
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0"
                 android:hint="XX:XX"
@@ -107,6 +105,7 @@
 
             <EditText
                 android:id="@+id/amount_noon"
+                android:inputType="numberSigned"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0"

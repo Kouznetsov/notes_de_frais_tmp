@@ -1,5 +1,7 @@
 package com.a_andries.fichedepaie;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.io.Serializable;
 import java.util.Calendar;
 
@@ -7,11 +9,11 @@ public class NDF implements Serializable {
     Calendar dateOfVisit; // timestamp in ms
     Calendar timeOfVisit;
     String practicianName;
-    float amountNoon; // in euro cents
+    float amountNoon;
     float amountEvening;
     float amountNight;
     int justificativesCount;
-    String key;
+    String key = null;
 
     public String getKey() {
         return key;
